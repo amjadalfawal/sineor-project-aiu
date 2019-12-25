@@ -4,6 +4,7 @@ import os.path
 import os
 import numpy as np
 import h5py
+from d_plot import plot_3d
 AMINO_ACIDE_LENGTH = 2000
 
 def process_text_based_data(force_overwrite=True):
@@ -70,10 +71,10 @@ def process_file(input_file, output_file):
         temp_dest1[current_buffer_allocaton] = primary_pad
         temp_dest2[current_buffer_allocaton] = tertiary_pad
         temp_dest3[current_buffer_allocaton] = mask_pad
-        print(primary_pad)
-        print(tertiary_pad)
-        print(mask_pad)
+        # print(primary_pad)
+        # print(mask_pad)
         current_buffer_allocaton += 1
+        
         
 
     print("number of Wrote output", current_buffer_allocaton, "proteins in file", output_file)
@@ -115,6 +116,7 @@ def read_strcture_protine(f_pointer):
                 for axis in range(3): tertiary.append(
                     [float(coord) for coord in f_pointer.readline().split()])
                 dict_.update({'tertiary': tertiary})
+                plot_3d(tertiary)
             elif next_line == '[MASK]\n':
                 mask = list([_mask_dict[aa] for aa in f_pointer.readline()[:-1]])
                 dict_.update({'mask': mask})
