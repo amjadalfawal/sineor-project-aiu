@@ -1,0 +1,427 @@
+2019-12-25 17:43:46: Train loss: -103280.72165301588
+2019-12-25 17:43:47: Loss time: 0.5704009532928467 Grad time: 1.026090145111084
+2019-12-25 17:43:48: Validation loss: 1.0 Train loss: -103280.72165301588
+2019-12-25 17:43:48: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:43:48: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:43:48: Minibatches processed: 1
+2019-12-25 17:43:49: Train loss: -103280.93801893969
+2019-12-25 17:43:49: Loss time: 0.7415871620178223 Grad time: 0.8789253234863281
+2019-12-25 17:43:50: Validation loss: 1.0 Train loss: -103280.93801893969
+2019-12-25 17:43:50: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:43:50: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:43:50: Minibatches processed: 2
+2019-12-25 17:43:50: Train loss: -103281.15623453908
+2019-12-25 17:43:52: Loss time: 0.4663546085357666 Grad time: 1.0363600254058838
+2019-12-25 17:43:52: Validation loss: 1.0 Train loss: -103281.15623453908
+2019-12-25 17:43:52: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:43:52: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:43:52: Minibatches processed: 3
+2019-12-25 17:43:53: Train loss: -103281.3764116855
+2019-12-25 17:43:54: Loss time: 0.5545086860656738 Grad time: 0.94657301902771
+2019-12-25 17:43:54: Validation loss: 1.0 Train loss: -103281.3764116855
+2019-12-25 17:43:54: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:43:54: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:43:54: Minibatches processed: 4
+2019-12-25 17:43:55: Train loss: -103281.59870858701
+2019-12-25 17:43:56: Loss time: 0.6301565170288086 Grad time: 1.0734224319458008
+2019-12-25 17:43:57: Validation loss: 1.0 Train loss: -103281.59870858701
+2019-12-25 17:43:57: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:43:57: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:43:57: Minibatches processed: 5
+2019-12-25 17:43:57: Train loss: -103281.82332733113
+2019-12-25 17:43:58: Loss time: 0.5354220867156982 Grad time: 0.9028682708740234
+2019-12-25 17:43:59: Validation loss: 1.0 Train loss: -103281.82332733113
+2019-12-25 17:43:59: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:43:59: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:43:59: Minibatches processed: 6
+2019-12-25 17:43:59: Train loss: -103282.05049705626
+2019-12-25 17:44:00: Loss time: 0.551037073135376 Grad time: 1.0584461688995361
+2019-12-25 17:44:01: Validation loss: 1.0 Train loss: -103282.05049705626
+2019-12-25 17:44:01: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:01: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:01: Minibatches processed: 7
+2019-12-25 17:44:02: Train loss: -103282.2804545683
+2019-12-25 17:44:03: Loss time: 0.7062182426452637 Grad time: 0.9898838996887207
+2019-12-25 17:44:03: Validation loss: 1.0 Train loss: -103282.2804545683
+2019-12-25 17:44:03: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:03: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:03: Minibatches processed: 8
+2019-12-25 17:44:04: Train loss: -103282.51343760754
+2019-12-25 17:44:05: Loss time: 0.5179312229156494 Grad time: 1.0612869262695312
+2019-12-25 17:44:06: Validation loss: 1.0 Train loss: -103282.51343760754
+2019-12-25 17:44:06: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:06: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:06: Minibatches processed: 9
+2019-12-25 17:44:06: Train loss: -103282.7496918076
+2019-12-25 17:44:07: Loss time: 0.509310245513916 Grad time: 0.9491360187530518
+2019-12-25 17:44:08: Validation loss: 1.0 Train loss: -103282.7496918076
+2019-12-25 17:44:08: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:08: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:08: Minibatches processed: 10
+2019-12-25 17:44:09: Train loss: -103282.98947794666
+2019-12-25 17:44:10: Loss time: 0.48450732231140137 Grad time: 0.9211604595184326
+2019-12-25 17:44:10: Validation loss: 1.0 Train loss: -103282.98947794666
+2019-12-25 17:44:10: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:10: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:10: Minibatches processed: 11
+2019-12-25 17:44:11: Train loss: -103283.23307213616
+2019-12-25 17:44:12: Loss time: 0.7366738319396973 Grad time: 0.9220719337463379
+2019-12-25 17:44:12: Validation loss: 1.0 Train loss: -103283.23307213616
+2019-12-25 17:44:12: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:12: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:12: Minibatches processed: 12
+2019-12-25 17:44:13: Train loss: -103283.48076461231
+2019-12-25 17:44:14: Loss time: 0.4760608673095703 Grad time: 0.9394865036010742
+2019-12-25 17:44:15: Validation loss: 1.0 Train loss: -103283.48076461231
+2019-12-25 17:44:15: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:15: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:15: Minibatches processed: 13
+2019-12-25 17:44:15: Train loss: -103283.73285842604
+2019-12-25 17:44:16: Loss time: 0.5941109657287598 Grad time: 0.9334931373596191
+2019-12-25 17:44:17: Validation loss: 1.0 Train loss: -103283.73285842604
+2019-12-25 17:44:17: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:17: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:17: Minibatches processed: 14
+2019-12-25 17:44:18: Train loss: -103283.98966728736
+2019-12-25 17:44:19: Loss time: 0.7521588802337646 Grad time: 0.9208064079284668
+2019-12-25 17:44:19: Validation loss: 1.0 Train loss: -103283.98966728736
+2019-12-25 17:44:19: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:19: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:19: Minibatches processed: 15
+2019-12-25 17:44:20: Train loss: -103284.2515171245
+2019-12-25 17:44:21: Loss time: 0.5196166038513184 Grad time: 1.0028796195983887
+2019-12-25 17:44:22: Validation loss: 1.0 Train loss: -103284.2515171245
+2019-12-25 17:44:22: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:22: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:22: Minibatches processed: 16
+2019-12-25 17:44:22: Train loss: -103284.51874621709
+2019-12-25 17:44:23: Loss time: 0.5763356685638428 Grad time: 0.9248337745666504
+2019-12-25 17:44:24: Validation loss: 1.0 Train loss: -103284.51874621709
+2019-12-25 17:44:24: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:24: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:24: Minibatches processed: 17
+2019-12-25 17:44:24: Train loss: -103284.79170552781
+2019-12-25 17:44:25: Loss time: 0.45871686935424805 Grad time: 1.0145554542541504
+2019-12-25 17:44:26: Validation loss: 1.0 Train loss: -103284.79170552781
+2019-12-25 17:44:26: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:26: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:26: Minibatches processed: 18
+2019-12-25 17:44:26: Train loss: -103285.07076042458
+2019-12-25 17:44:27: Loss time: 0.4933285713195801 Grad time: 0.9213194847106934
+2019-12-25 17:44:28: Validation loss: 1.0 Train loss: -103285.07076042458
+2019-12-25 17:44:28: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:28: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:28: Minibatches processed: 19
+2019-12-25 17:44:29: Train loss: -103285.35629028079
+2019-12-25 17:44:30: Loss time: 0.7537193298339844 Grad time: 1.0138814449310303
+2019-12-25 17:44:30: Validation loss: 1.0 Train loss: -103285.35629028079
+2019-12-25 17:44:30: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:30: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:30: Minibatches processed: 20
+2019-12-25 17:44:31: Train loss: -103285.64869096878
+2019-12-25 17:44:32: Loss time: 0.5148396492004395 Grad time: 0.9665369987487793
+2019-12-25 17:44:33: Validation loss: 1.0 Train loss: -103285.64869096878
+2019-12-25 17:44:33: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:33: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:33: Minibatches processed: 21
+2019-12-25 17:44:33: Train loss: -103285.94837522268
+2019-12-25 17:44:34: Loss time: 0.5559432506561279 Grad time: 0.9052345752716064
+2019-12-25 17:44:35: Validation loss: 1.0 Train loss: -103285.94837522268
+2019-12-25 17:44:35: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:35: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:35: Minibatches processed: 22
+2019-12-25 17:44:35: Train loss: -103286.25577588659
+2019-12-25 17:44:36: Loss time: 0.5807263851165771 Grad time: 0.9569301605224609
+2019-12-25 17:44:37: Validation loss: 1.0 Train loss: -103286.25577588659
+2019-12-25 17:44:37: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:37: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:37: Minibatches processed: 23
+2019-12-25 17:44:37: Train loss: -103286.57134652112
+2019-12-25 17:44:38: Loss time: 0.5409297943115234 Grad time: 1.0002474784851074
+2019-12-25 17:44:39: Validation loss: 1.0 Train loss: -103286.57134652112
+2019-12-25 17:44:39: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:39: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:39: Minibatches processed: 24
+2019-12-25 17:44:40: Train loss: -103286.89556350828
+2019-12-25 17:44:41: Loss time: 0.6340816020965576 Grad time: 1.071948766708374
+2019-12-25 17:44:41: Validation loss: 1.0 Train loss: -103286.89556350828
+2019-12-25 17:44:41: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:41: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:41: Minibatches processed: 25
+2019-12-25 17:44:42: Train loss: -103287.22892565619
+2019-12-25 17:44:43: Loss time: 0.527338981628418 Grad time: 1.0026135444641113
+2019-12-25 17:44:44: Validation loss: 1.0 Train loss: -103287.22892565619
+2019-12-25 17:44:44: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:44: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:44: Minibatches processed: 26
+2019-12-25 17:44:44: Train loss: -103287.57195315055
+2019-12-25 17:44:45: Loss time: 0.46641039848327637 Grad time: 0.909916877746582
+2019-12-25 17:44:46: Validation loss: 1.0 Train loss: -103287.57195315055
+2019-12-25 17:44:46: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:46: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:46: Minibatches processed: 27
+2019-12-25 17:44:46: Train loss: -103287.9251868808
+2019-12-25 17:44:47: Loss time: 0.47335267066955566 Grad time: 0.9003362655639648
+2019-12-25 17:44:48: Validation loss: 1.0 Train loss: -103287.9251868808
+2019-12-25 17:44:48: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:48: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:48: Minibatches processed: 28
+2019-12-25 17:44:48: Train loss: -103288.28918792821
+2019-12-25 17:44:49: Loss time: 0.5829401016235352 Grad time: 0.8958964347839355
+2019-12-25 17:44:50: Validation loss: 1.0 Train loss: -103288.28918792821
+2019-12-25 17:44:50: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:50: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:50: Minibatches processed: 29
+2019-12-25 17:44:50: Train loss: -103288.66453622493
+2019-12-25 17:44:51: Loss time: 0.4698781967163086 Grad time: 0.973893404006958
+2019-12-25 17:44:52: Validation loss: 1.0 Train loss: -103288.66453622493
+2019-12-25 17:44:52: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:52: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:52: Minibatches processed: 30
+2019-12-25 17:44:52: Train loss: -103289.05183003926
+2019-12-25 17:44:53: Loss time: 0.46506571769714355 Grad time: 0.9158604145050049
+2019-12-25 17:44:54: Validation loss: 1.0 Train loss: -103289.05183003926
+2019-12-25 17:44:54: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:54: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:54: Minibatches processed: 31
+2019-12-25 17:44:54: Train loss: -103289.45168773014
+2019-12-25 17:44:55: Loss time: 0.4662032127380371 Grad time: 0.9301156997680664
+2019-12-25 17:44:56: Validation loss: 1.0 Train loss: -103289.45168773014
+2019-12-25 17:44:56: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:56: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:56: Minibatches processed: 32
+2019-12-25 17:44:57: Train loss: -103289.86474604698
+2019-12-25 17:44:58: Loss time: 0.6130704879760742 Grad time: 0.8775060176849365
+2019-12-25 17:44:58: Validation loss: 1.0 Train loss: -103289.86474604698
+2019-12-25 17:44:58: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:44:58: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:44:58: Minibatches processed: 33
+2019-12-25 17:44:59: Train loss: -103290.29166258345
+2019-12-25 17:45:00: Loss time: 0.7832880020141602 Grad time: 0.8621933460235596
+2019-12-25 17:45:00: Validation loss: 1.0 Train loss: -103290.29166258345
+2019-12-25 17:45:00: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:00: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:00: Minibatches processed: 34
+2019-12-25 17:45:01: Train loss: -103290.73311449443
+2019-12-25 17:45:02: Loss time: 0.5454132556915283 Grad time: 0.9683294296264648
+2019-12-25 17:45:02: Validation loss: 1.0 Train loss: -103290.73311449443
+2019-12-25 17:45:02: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:02: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:02: Minibatches processed: 35
+2019-12-25 17:45:03: Train loss: -103291.18980047654
+2019-12-25 17:45:04: Loss time: 0.7446093559265137 Grad time: 0.9339487552642822
+2019-12-25 17:45:05: Validation loss: 1.0 Train loss: -103291.18980047654
+2019-12-25 17:45:05: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:05: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:05: Minibatches processed: 36
+2019-12-25 17:45:05: Train loss: -103291.66244043279
+2019-12-25 17:45:06: Loss time: 0.4676172733306885 Grad time: 0.8697035312652588
+2019-12-25 17:45:07: Validation loss: 1.0 Train loss: -103291.66244043279
+2019-12-25 17:45:07: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:07: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:07: Minibatches processed: 37
+2019-12-25 17:45:08: Train loss: -103292.15177497434
+2019-12-25 17:45:09: Loss time: 0.681591272354126 Grad time: 0.9307787418365479
+2019-12-25 17:45:09: Validation loss: 1.0 Train loss: -103292.15177497434
+2019-12-25 17:45:09: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:09: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:09: Minibatches processed: 38
+2019-12-25 17:45:10: Train loss: -103292.65856642216
+2019-12-25 17:45:11: Loss time: 0.6383073329925537 Grad time: 0.9383776187896729
+2019-12-25 17:45:11: Validation loss: 1.0 Train loss: -103292.65856642216
+2019-12-25 17:45:11: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:11: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:11: Minibatches processed: 39
+2019-12-25 17:45:12: Train loss: -103293.18359489937
+2019-12-25 17:45:13: Loss time: 0.6872568130493164 Grad time: 0.9896008968353271
+2019-12-25 17:45:14: Validation loss: 1.0 Train loss: -103293.18359489937
+2019-12-25 17:45:14: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:14: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:14: Minibatches processed: 40
+2019-12-25 17:45:15: Train loss: -103293.72766034215
+2019-12-25 17:45:16: Loss time: 0.6875276565551758 Grad time: 1.0462989807128906
+2019-12-25 17:45:16: Validation loss: 1.0 Train loss: -103293.72766034215
+2019-12-25 17:45:16: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:16: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:16: Minibatches processed: 41
+2019-12-25 17:45:17: Train loss: -103294.2915808457
+2019-12-25 17:45:18: Loss time: 0.4875023365020752 Grad time: 1.0228376388549805
+2019-12-25 17:45:19: Validation loss: 1.0 Train loss: -103294.2915808457
+2019-12-25 17:45:19: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:19: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:19: Minibatches processed: 42
+2019-12-25 17:45:19: Train loss: -103294.87618781593
+2019-12-25 17:45:20: Loss time: 0.47432947158813477 Grad time: 0.978276252746582
+2019-12-25 17:45:21: Validation loss: 1.0 Train loss: -103294.87618781593
+2019-12-25 17:45:21: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:21: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:21: Minibatches processed: 43
+2019-12-25 17:45:21: Train loss: -103295.48232384329
+2019-12-25 17:45:22: Loss time: 0.59844970703125 Grad time: 0.9149727821350098
+2019-12-25 17:45:23: Validation loss: 1.0 Train loss: -103295.48232384329
+2019-12-25 17:45:23: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:23: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:23: Minibatches processed: 44
+2019-12-25 17:45:24: Train loss: -103296.11084311854
+2019-12-25 17:45:24: Loss time: 0.5691266059875488 Grad time: 0.9632911682128906
+2019-12-25 17:45:25: Validation loss: 1.0 Train loss: -103296.11084311854
+2019-12-25 17:45:25: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:25: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:25: Minibatches processed: 45
+2019-12-25 17:45:26: Train loss: -103296.76260485368
+2019-12-25 17:45:27: Loss time: 0.5881154537200928 Grad time: 0.9609589576721191
+2019-12-25 17:45:27: Validation loss: 1.0 Train loss: -103296.76260485368
+2019-12-25 17:45:27: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:27: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:27: Minibatches processed: 46
+2019-12-25 17:45:28: Train loss: -103297.43847731977
+2019-12-25 17:45:29: Loss time: 0.6169610023498535 Grad time: 0.8928766250610352
+2019-12-25 17:45:29: Validation loss: 1.0 Train loss: -103297.43847731977
+2019-12-25 17:45:29: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:29: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:29: Minibatches processed: 47
+2019-12-25 17:45:30: Train loss: -103298.13933322915
+2019-12-25 17:45:31: Loss time: 0.6606462001800537 Grad time: 0.9897875785827637
+2019-12-25 17:45:32: Validation loss: 1.0 Train loss: -103298.13933322915
+2019-12-25 17:45:32: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:32: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:32: Minibatches processed: 48
+2019-12-25 17:45:32: Train loss: -103298.86605372382
+2019-12-25 17:45:33: Loss time: 0.4761326313018799 Grad time: 0.9270148277282715
+2019-12-25 17:45:34: Validation loss: 1.0 Train loss: -103298.86605372382
+2019-12-25 17:45:34: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:34: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:34: Minibatches processed: 49
+2019-12-25 17:45:35: Train loss: -103299.61952549433
+2019-12-25 17:45:36: Loss time: 0.6674463748931885 Grad time: 1.013136625289917
+2019-12-25 17:45:36: Validation loss: 1.0 Train loss: -103299.61952549433
+2019-12-25 17:45:36: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:36: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:36: Minibatches processed: 50
+2019-12-25 17:45:37: Train loss: -103300.4006365649
+2019-12-25 17:45:38: Loss time: 0.5470290184020996 Grad time: 1.0041887760162354
+2019-12-25 17:45:38: Validation loss: 1.0 Train loss: -103300.4006365649
+2019-12-25 17:45:38: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:38: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:38: Minibatches processed: 51
+2019-12-25 17:45:39: Train loss: -103301.210264037
+2019-12-25 17:45:40: Loss time: 0.4830818176269531 Grad time: 0.9561192989349365
+2019-12-25 17:45:40: Validation loss: 1.0 Train loss: -103301.210264037
+2019-12-25 17:45:40: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:40: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:40: Minibatches processed: 52
+2019-12-25 17:45:41: Train loss: -103302.0492565435
+2019-12-25 17:45:42: Loss time: 0.6396603584289551 Grad time: 1.0103061199188232
+2019-12-25 17:45:43: Validation loss: 1.0 Train loss: -103302.0492565435
+2019-12-25 17:45:43: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:43: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:43: Minibatches processed: 53
+2019-12-25 17:45:43: Train loss: -103302.91840400679
+2019-12-25 17:45:44: Loss time: 0.5713911056518555 Grad time: 0.8723702430725098
+2019-12-25 17:45:45: Validation loss: 1.0 Train loss: -103302.91840400679
+2019-12-25 17:45:45: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:45: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:45: Minibatches processed: 54
+2019-12-25 17:45:45: Train loss: -103303.81839016503
+2019-12-25 17:45:46: Loss time: 0.46677637100219727 Grad time: 0.9273521900177002
+2019-12-25 17:45:47: Validation loss: 1.0 Train loss: -103303.81839016503
+2019-12-25 17:45:47: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:47: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:47: Minibatches processed: 55
+2019-12-25 17:45:47: Train loss: -103304.74972699821
+2019-12-25 17:45:48: Loss time: 0.8066134452819824 Grad time: 0.999229907989502
+2019-12-25 17:45:49: Validation loss: 1.0 Train loss: -103304.74972699821
+2019-12-25 17:45:49: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:49: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:49: Minibatches processed: 56
+2019-12-25 17:45:50: Train loss: -103305.71266854573
+2019-12-25 17:45:51: Loss time: 0.6604034900665283 Grad time: 0.9051809310913086
+2019-12-25 17:45:51: Validation loss: 1.0 Train loss: -103305.71266854573
+2019-12-25 17:45:51: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:51: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:51: Minibatches processed: 57
+2019-12-25 17:45:52: Train loss: -103306.70710545873
+2019-12-25 17:45:53: Loss time: 0.535207986831665 Grad time: 1.066901445388794
+2019-12-25 17:45:54: Validation loss: 1.0 Train loss: -103306.70710545873
+2019-12-25 17:45:54: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:54: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:54: Minibatches processed: 58
+2019-12-25 17:45:54: Train loss: -103307.73245958643
+2019-12-25 17:45:55: Loss time: 0.5785398483276367 Grad time: 1.0524163246154785
+2019-12-25 17:45:56: Validation loss: 1.0 Train loss: -103307.73245958643
+2019-12-25 17:45:56: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:56: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:56: Minibatches processed: 59
+2019-12-25 17:45:57: Train loss: -103308.78758041638
+2019-12-25 17:45:58: Loss time: 0.6945562362670898 Grad time: 0.9876701831817627
+2019-12-25 17:45:58: Validation loss: 1.0 Train loss: -103308.78758041638
+2019-12-25 17:45:58: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:45:58: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:45:58: Minibatches processed: 60
+2019-12-25 17:45:59: Train loss: -103309.87068881562
+2019-12-25 17:46:00: Loss time: 0.74363112449646 Grad time: 1.1055502891540527
+2019-12-25 17:46:01: Validation loss: 1.0 Train loss: -103309.87068881562
+2019-12-25 17:46:01: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:46:01: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:46:01: Minibatches processed: 61
+2019-12-25 17:46:01: Train loss: -103310.9793666757
+2019-12-25 17:46:02: Loss time: 0.47037506103515625 Grad time: 0.9086229801177979
+2019-12-25 17:46:03: Validation loss: 1.0 Train loss: -103310.9793666757
+2019-12-25 17:46:03: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:46:03: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:46:03: Minibatches processed: 62
+2019-12-25 17:46:04: Train loss: -103312.11063205308
+2019-12-25 17:46:04: Loss time: 0.47627687454223633 Grad time: 0.8715624809265137
+2019-12-25 17:46:05: Validation loss: 1.0 Train loss: -103312.11063205308
+2019-12-25 17:46:05: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:46:05: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:46:05: Minibatches processed: 63
+2019-12-25 17:46:06: Train loss: -103313.26108989614
+2019-12-25 17:46:07: Loss time: 0.7127912044525146 Grad time: 0.8717331886291504
+2019-12-25 17:46:07: Validation loss: 1.0 Train loss: -103313.26108989614
+2019-12-25 17:46:07: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:46:07: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:46:07: Minibatches processed: 64
+2019-12-25 17:46:08: Train loss: -103314.42714490046
+2019-12-25 17:46:09: Loss time: 0.6643221378326416 Grad time: 0.9066934585571289
+2019-12-25 17:46:10: Validation loss: 1.0 Train loss: -103314.42714490046
+2019-12-25 17:46:10: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:46:10: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:46:10: Minibatches processed: 65
+2019-12-25 17:46:10: Train loss: -103315.60523678873
+2019-12-25 17:46:11: Loss time: 0.6526615619659424 Grad time: 0.9578821659088135
+2019-12-25 17:46:12: Validation loss: 1.0 Train loss: -103315.60523678873
+2019-12-25 17:46:12: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:46:12: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:46:12: Minibatches processed: 66
+2019-12-25 17:46:12: Train loss: -103316.79206222956
+2019-12-25 17:46:13: Loss time: 0.5042843818664551 Grad time: 0.9261126518249512
+2019-12-25 17:46:14: Validation loss: 1.0 Train loss: -103316.79206222956
+2019-12-25 17:46:14: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:46:14: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:46:14: Minibatches processed: 67
+2019-12-25 17:46:15: Train loss: -103317.98474243523
+2019-12-25 17:46:16: Loss time: 0.7317790985107422 Grad time: 1.0275890827178955
+2019-12-25 17:46:17: Validation loss: 1.0 Train loss: -103317.98474243523
+2019-12-25 17:46:17: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:46:17: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:46:17: Minibatches processed: 68
+2019-12-25 17:46:17: Train loss: -103319.18091854955
+2019-12-25 17:46:18: Loss time: 0.47016239166259766 Grad time: 0.9835741519927979
+2019-12-25 17:46:19: Validation loss: 1.0 Train loss: -103319.18091854955
+2019-12-25 17:46:19: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:46:19: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:46:19: Minibatches processed: 69
+2019-12-25 17:46:19: Train loss: -103320.37877717818
+2019-12-25 17:46:20: Loss time: 0.4675137996673584 Grad time: 0.9192888736724854
+2019-12-25 17:46:21: Validation loss: 1.0 Train loss: -103320.37877717818
+2019-12-25 17:46:21: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:46:21: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:46:21: Minibatches processed: 70
+2019-12-25 17:46:22: Train loss: -103321.5770225074
+2019-12-25 17:46:22: Loss time: 0.679450273513794 Grad time: 0.8704380989074707
+2019-12-25 17:46:23: Validation loss: 1.0 Train loss: -103321.5770225074
+2019-12-25 17:46:23: Best model so far (label loss):  1.0 at time 1
+2019-12-25 17:46:23: Best model stored at /content/sineor-project-aiu/data/2019-12-25_17_43_45-TRAIN-LR0_001-MB10.model
+2019-12-25 17:46:23: Minibatches processed: 71
+2019-12-25 17:46:24: Train loss: -103322.77479966711

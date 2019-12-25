@@ -40,7 +40,7 @@ def process_file(input_file, output_file):
     temp_dest2 = f.create_dataset('tertiary',(current_buffer_size,9,AMINO_ACIDE_LENGTH),maxshape=(None,9, AMINO_ACIDE_LENGTH),dtype='float')
     temp_dest3 = f.create_dataset('mask',(current_buffer_size,AMINO_ACIDE_LENGTH),maxshape=(None,AMINO_ACIDE_LENGTH),dtype='float')
 
-    input_f_pointer = open("data/" + input_file, "r")
+    input_f_pointer = open("/content/sineor-project-aiu/data/text_based/sample.txt", "r")
 
     while True:
         # while there's more proteins to process

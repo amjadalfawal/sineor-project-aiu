@@ -32,7 +32,7 @@ def set_protien_experiments_id(data_set_identifier, learning_rate, minibatch_siz
 def write_out(*args, end='\n'):
     output_string = datetime.now().strftime('%Y-%m-%d %H:%M:%S') + ": " + str.join(" ", [str(a) for a in args]) + end
     if globals().get("experiment_id") is not None:
-        with open("output/"+globals().get("experiment_id")+".txt", "a+") as output_file:
+        with open("/content/sineor-project-aiu/data/"+globals().get("experiment_id")+".txt", "a+") as output_file:
             output_file.write(output_string)
             output_file.flush()
     print(output_string, end="")
@@ -57,7 +57,7 @@ def test_eval_model(data_loader, model):
     return (loss, data_total)
 
 def save_model_on_disk_torch_version(model):
-    path = "output/models/"+globals().get("experiment_id")+".model"
+    path = "/content/sineor-project-aiu/data/"+globals().get("experiment_id")+".model"
     torch.save(model,path)
     return path
 
@@ -81,7 +81,7 @@ def draw_plot(fig, plt, validation_dataset_size, sample_num, train_loss_values,
 
 def logs(accuracy):
     output_string = globals().get("experiment_id") + ": " + str(accuracy) + "\n"
-    with open("output/logs.txt", "a+") as output_file:
+    with open("/content/sineor-project-aiu/data/logs.txt", "a+") as output_file:
         output_file.write(output_string)
         output_file.flush()
     print(output_string, end="")
