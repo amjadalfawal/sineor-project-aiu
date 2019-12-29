@@ -57,7 +57,7 @@ class ExampleModel(nn.Module):
         minibatch_size = len(input_sequences)
         self.init_hidden(minibatch_size)
         bi_lstm_out, self.hidden_layer = self.bi_lstm(packed, self.hidden_layer)
-        print(bi_lstm_out.data ,bi_lstm_out.batch_sizes)
+        # print(bi_lstm_out.data ,bi_lstm_out.batch_sizes)
         data = bi_lstm_out.data
         batch_sizes = bi_lstm_out.batch_sizes
         emissions = self.hidden_to_labels(data)

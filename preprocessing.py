@@ -65,7 +65,9 @@ def process_file(input_file, output_file):
         mask_pad = np.zeros(AMINO_ACIDE_LENGTH)
 
         primary_pad[:sequence_length] = next_protein['primary']
-        tertiary_pad[:,:sequence_length] = np.array(next_protein['tertiary']).reshape((9,sequence_length))
+        t_transposed = np.ravel(np.array(next_protein['tertiary']).T)
+        t_reshaped = np.reshape(t_transposed, (sequence_length,9)).T
+        tertiary_pad[:,:sequence_length] = t_reshaped
         mask_pad[:sequence_length] = next_protein['mask']
 
         temp_dest1[current_buffer_allocaton] = primary_pad

@@ -7,12 +7,12 @@ import torch.optim as optim
 import matplotlib
 import numpy as np
 import time
-
 import matplotlib.pyplot as plt
 from drawnow import drawnow
 from models import ExampleModel
 import argparse
-from helper import contruct_data_loader_from_disk, set_protien_experiments_id, write_out, test_eval_model, save_model_on_disk_torch_version, draw_plot, logs
+from helper import contruct_data_loader_from_disk, set_protien_experiments_id, write_out, test_eval_model, save_model_on_disk_torch_version, draw_plot, logs , write_to_pdb_strcture
+
 print("--------------------------------------------------------------------------------------------------------------------------------")
 print("---------------------------------------------------------------- protin senior -------------------------------------------------")
 process_text_based_data()
@@ -96,6 +96,13 @@ def train_model(data_set_identifier, train_file, val_file, learning_rate, miniba
                 train_loss = loss_tracker.mean()
                 loss_tracker = np.zeros(0)
                 validation_loss, data_total = test_eval_model(validation_loader, model)
+                prim = data_total[0][0]
+                pos = data_total[0][1].transpose(0,1).contiguous().view(-1,3)
+                pos_predicted = data_total[0][2].transpose(0,1).contiguous().view(-1,3)
+                write_to_pdb_strcture(pos, prim, "test")
+                print(pos)
+                # cmd.load("output/protein_test.pdb")
+                write_to_pdb_strcture(pos_predicted.detach(), prim, "test_pred")
                 if validation_loss < best_model_loss:
                     best_model_loss = validation_loss
                     best_model_minibatch_time = minibatches_proccesed
