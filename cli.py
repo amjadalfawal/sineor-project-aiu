@@ -24,13 +24,16 @@ print("-------------------------------------------------------------------------
 
 
 #flags const variables 
-live_plot = True
-eval_interval = 1
+live_plot = False
+eval_interval = 10
 learning_rate = 0.001
 minimum_updates = 100
-minibatch_size = 10
+minibatch_size = 640
  
-
+use_gpu = True
+if torch.cuda.is_available():
+    write_out("CUDA is available, using GPU")
+    use_gpu = True
 
 
 if not live_plot:
@@ -39,6 +42,7 @@ if not live_plot:
 
 training_file = "data/preprocessed/sample.hdf5"
 validation_file = "data/preprocessed/sample.hdf5"
+testing_file = "data/preprocessed/sample.hdf5"
 
 
 def train_model(data_set_identifier, train_file, val_file, learning_rate, minibatch_size):
@@ -48,7 +52,7 @@ def train_model(data_set_identifier, train_file, val_file, learning_rate, miniba
     validation_loader = contruct_data_loader_from_disk(val_file, minibatch_size)
     validation_dataset_size = validation_loader.dataset.__len__()
 
-    model = ExampleModel(9, "ONEHOT", minibatch_size) # 3 x 3 coordinates for each aa
+    model = ExampleModel(9, "ONEHOT", minibatch_size, use_gpu=use_gpu) 
 
     optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 
