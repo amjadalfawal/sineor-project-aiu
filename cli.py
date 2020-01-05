@@ -116,7 +116,9 @@ def train_model(data_set_identifier, train_file, val_file, learning_rate, miniba
     logs(best_model_loss)
     return best_model_path
 
-
+start = time.time()
 train_model_path = train_model("TRAIN", training_file, validation_file, learning_rate, minibatch_size)
+end = time.time()
+print( "Time elapsed: "  , end - start)
 
 print(train_model_path)

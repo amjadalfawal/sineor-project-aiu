@@ -16,7 +16,7 @@ class ExampleModel(nn.Module):
         self.embedding = embedding
         self.hidden_size = 10
         self.embedding_function = nn.Embedding(24, self.get_embedding_size())
-        self.bi_lstm = nn.LSTM(self.get_embedding_size(), self.hidden_size, num_layers=1, bidirectional=True)
+        self.bi_lstm = nn.GRU(self.get_embedding_size(), self.hidden_size, num_layers=1, bidirectional=True)
         self.hidden_to_labels = nn.Linear(self.hidden_size * 2, num_labels) # * 2 for bidirectional
         self.init_hidden(minibatch_size)
         if self.use_gpu:
@@ -56,8 +56,13 @@ class ExampleModel(nn.Module):
             packed = rnn_utils.pack_sequence(input_sequences)
         minibatch_size = len(input_sequences)
         self.init_hidden(minibatch_size)
-        bi_lstm_out, self.hidden_layer = self.bi_lstm(packed, self.hidden_layer)
-        print(bi_lstm_out.data ,bi_lstm_out.batch_sizes)
+        # print("here")
+        temp = [t.size()  for t in self.hidden_layer]
+        tuple_hidden_layer = (temp[0] , temp[1])
+        # print (tuple_hidden_layer)
+        # print("here")
+        bi_lstm_out, self.hidden_layer = self.bi_lstm(packed) #,tuple_hidden_layer)
+        # print(bi_lstm_out.data ,bi_lstm_out.batch_sizes)
         data = bi_lstm_out.data
         batch_sizes = bi_lstm_out.batch_sizes
         emissions = self.hidden_to_labels(data)
