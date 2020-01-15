@@ -7,7 +7,8 @@ import torch.optim as optim
 import matplotlib
 import numpy as np
 import time
-
+from pathlib import Path
+import os
 import matplotlib.pyplot as plt
 from drawnow import drawnow
 from models import ExampleModel
@@ -43,7 +44,7 @@ if not live_plot:
 training_file = "data/preprocessed/sample.hdf5"
 validation_file = "data/preprocessed/sample.hdf5"
 testing_file = "data/preprocessed/sample.hdf5"
-
+model_path = '/content/sineor-project-aiu/data/trained_model/model'
 
 def train_model(data_set_identifier, train_file, val_file, learning_rate, minibatch_size):
     set_protien_experiments_id(data_set_identifier, learning_rate, minibatch_size)
@@ -52,7 +53,13 @@ def train_model(data_set_identifier, train_file, val_file, learning_rate, miniba
     validation_loader = contruct_data_loader_from_disk(val_file, minibatch_size)
     validation_dataset_size = validation_loader.dataset.__len__()
 
-    model = ExampleModel(9, "ONEHOT", minibatch_size, use_gpu=use_gpu) 
+    if Path(model_path).is_file():
+      print("\n\n\n\n\n")
+      print("###################### MODEL LOADED FROM " , model_path)
+      print("\n\n\n\n\n")
+      model = torch.load(model_path)
+    else:
+      model = ExampleModel(9, "ONEHOT", minibatch_size, use_gpu=use_gpu) 
 
     optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 
@@ -98,7 +105,7 @@ def train_model(data_set_identifier, train_file, val_file, learning_rate, miniba
                 if validation_loss < best_model_loss:
                     best_model_loss = validation_loss
                     best_model_minibatch_time = minibatches_proccesed
-                    best_model_path = save_model_on_disk_torch_version(model)
+                    best_model_path = save_model_on_disk_torch_version(model , model_path)
 
                 write_out("Validation loss:", validation_loss, "Train loss:", train_loss)
                 write_out("Best model so far (label loss): ", validation_loss, "at time", best_model_minibatch_time)

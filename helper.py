@@ -64,8 +64,9 @@ def test_eval_model(data_loader, model):
     loss /= data_loader.dataset.__len__()
     return (loss, data_total)
 
-def save_model_on_disk_torch_version(model):
-    path = "/content/sineor-project-aiu/data/"+globals().get("experiment_id")+".model"
+def save_model_on_disk_torch_version(model ,path = '' ):
+    if path == '':
+      path = "/content/sineor-project-aiu/data/"+globals().get("experiment_id")+".model"
     torch.save(model,path)
     return path
 
