@@ -15,6 +15,7 @@ class ExampleModel(nn.Module):
         self.use_gpu = False
         self.embedding = embedding
         self.hidden_size = 10
+        self.trained_proteins = 0
         self.embedding_function = nn.Embedding(24, self.get_embedding_size())
         self.bi_lstm = nn.GRU(self.get_embedding_size(), self.hidden_size, num_layers=1, bidirectional=True)
         self.hidden_to_labels = nn.Linear(self.hidden_size * 2, num_labels) # * 2 for bidirectional

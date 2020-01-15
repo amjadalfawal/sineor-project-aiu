@@ -82,6 +82,11 @@ def train_model(data_set_identifier, train_file, val_file, learning_rate, miniba
         model.zero_grad()
         loss_tracker = np.zeros(0)
         for minibatch_id, training_minibatch in enumerate(train_loader, 0):
+            # print("          DEBUG: model.trained_proteins" ,model.trained_proteins )
+            # print("          DEBUG: minibatch_id" ,minibatch_id )
+            if model.trained_proteins < minibatch_id:
+                continue;
+            # print("          DEBUG: minibatch_id" ,minibatch_id )
             minibatches_proccesed += 1
             primary_sequence, tertiary_positions, mask = training_minibatch
             start_compute_loss = time.time()
@@ -95,7 +100,7 @@ def train_model(data_set_identifier, train_file, val_file, learning_rate, miniba
             optimizer.step()
             optimizer.zero_grad()
             model.zero_grad()
-
+            model.trained_proteins = minibatch_id
             # for every eval_interval samples, plot performance on the validation set
             if minibatches_proccesed % eval_interval == 0:
 
