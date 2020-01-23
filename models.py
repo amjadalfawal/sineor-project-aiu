@@ -62,7 +62,7 @@ class ExampleModel(nn.Module):
         tuple_hidden_layer = (temp[0] , temp[1])
         # print (tuple_hidden_layer)
         # print("here")
-        bi_lstm_out, self.hidden_layer = self.bi_lstm(packed, tuple_hidden_layer)
+        bi_lstm_out, self.hidden_layer = self.bi_lstm(packed, self.hidden_layer)
         # print(bi_lstm_out.data ,bi_lstm_out.batch_sizes)
         data = bi_lstm_out.data
         batch_sizes = bi_lstm_out.batch_sizes
