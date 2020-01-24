@@ -8,13 +8,11 @@ import h5py
 AMINO_ACIDE_LENGTH = 2000
 
 def process_text_based_data(force_overwrite=True):
-    print("debug")
     print("Starting pre-processing of text_based data")
     input_files_data_set = glob.glob("/content/senior/data/text_based/*")
     print(input_files_data_set);
     input_files_data_set_filtered = filter_input_files_data_set(input_files_data_set)
     for file_path in input_files_data_set_filtered:
-        print("qweqwe")
         filename = file_path.split('/')[-1]
         preprocessed_file_name = '/content/senior/data/preprocessed/sample.hdf5'
 

@@ -16,7 +16,7 @@ import argparse
 from helper import contruct_data_loader_from_disk, set_protien_experiments_id, write_out, test_eval_model, save_model_on_disk_torch_version, draw_plot, logs
 print("--------------------------------------------------------------------------------------------------------------------------------")
 print("---------------------------------------------------------------- protin senior -------------------------------------------------")
-process_text_based_data()
+# process_text_based_data()
 print("--------------------------------------------------------------------------------------------------------------------------------")
 
 
@@ -44,7 +44,7 @@ if not live_plot:
 training_file = "data/preprocessed/sample.hdf5"
 validation_file = "data/preprocessed/sample.hdf5"
 testing_file = "data/preprocessed/sample.hdf5"
-model_path = '/content/sineor-project-aiu/data/trained_model/model'
+model_path = '/content/senior/data/trained_model/model'
 
 def train_model(data_set_identifier, train_file, val_file, learning_rate, minibatch_size):
     set_protien_experiments_id(data_set_identifier, learning_rate, minibatch_size)

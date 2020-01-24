@@ -15,7 +15,6 @@ class ExampleModel(nn.Module):
         self.use_gpu = False
         self.embedding = embedding
         self.hidden_size = 10
-        self.trained_proteins = 0
         self.embedding_function = nn.Embedding(24, self.get_embedding_size())
         self.bi_lstm = nn.LSTM(self.get_embedding_size(), self.hidden_size, num_layers=1, bidirectional=True)
         self.hidden_to_labels = nn.Linear(self.hidden_size * 2, num_labels) # * 2 for bidirectional
@@ -50,19 +49,15 @@ class ExampleModel(nn.Module):
 
     def _get_network_emissions(self, input_sequences):
         if self.embedding == "PYTORCH":
-            pad_seq, seq_length = rnn_utils.pad_sequence(input_sequences), [v.size(0) for v in input_sequences]
+            pad_seq, seq_length = rnn_utils.pad_sequence(input_sequences)  , [v.size(0) for v in input_sequences]
             pad_seq_embed = self.embedding_function(pad_seq)
             packed = rnn_utils.pack_padded_sequence(pad_seq_embed, seq_length)
         else:
             packed = rnn_utils.pack_sequence(input_sequences)
         minibatch_size = len(input_sequences)
         self.init_hidden(minibatch_size)
-        # print("here")
-        temp = [t.size()  for t in self.hidden_layer]
-        tuple_hidden_layer = (temp[0] , temp[1])
-        # print (tuple_hidden_layer)
-        # print("here")
-        bi_lstm_out, self.hidden_layer = self.bi_lstm(packed, self.hidden_layer)
+        # print([c for c in self.hidden_layer][0].size)
+        bi_lstm_out, self.hidden_layer = self.bi_lstm(packed) # , [c for c in self.hidden_layer])
         # print(bi_lstm_out.data ,bi_lstm_out.batch_sizes)
         data = bi_lstm_out.data
         batch_sizes = bi_lstm_out.batch_sizes
