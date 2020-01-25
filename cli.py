@@ -16,7 +16,7 @@ import argparse
 from helper import contruct_data_loader_from_disk, set_protien_experiments_id, write_out, test_eval_model, save_model_on_disk_torch_version, draw_plot, logs
 print("--------------------------------------------------------------------------------------------------------------------------------")
 print("---------------------------------------------------------------- protin senior -------------------------------------------------")
-# process_text_based_data()
+process_text_based_data()
 print("--------------------------------------------------------------------------------------------------------------------------------")
 
 
